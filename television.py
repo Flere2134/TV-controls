@@ -5,7 +5,11 @@ class TV:
         self.volume_level = 1
         self.power = False
     #method to turn on tv
+    def turn_on(self):
+        self.power = True
     #method to turn off tv
+    def turn_off(self):
+        self.power = False
     #method to get channel of tv
     #method to set channel of tv
     #method to get volume of tv
