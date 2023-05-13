@@ -1,9 +1,9 @@
 class TV:
     #constructor
     def __init__(self, channel, volume_level, power):
-        self.channel = channel
-        self.volume_level = volume_level
-        self.power = power
+        self.channel = 1
+        self.volume_level = 1
+        self.power = False
     #method to turn on tv
     #method to turn off tv
     #method to get channel of tv
