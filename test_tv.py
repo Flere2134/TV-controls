@@ -8,6 +8,9 @@ television_1.turn_on()
 television_1.set_channel(30)
 #set volume of tv 1 to 3
 television_1.set_volume(3)
+#increase volume up by 2
+television_1.volume_up()
+television_1.volume_up()
 #display tv 1 status
 print('Television 1 is on channel', television_1.get_channel(), 'and volume is at', television_1.get_volume())
 
