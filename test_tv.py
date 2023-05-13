@@ -22,7 +22,7 @@ television_1.volume_up()
 television_1.channel_up()
 #display tv status
 time.sleep(1)
-print(Fore.GREEN + Style.BRIGHT + '\nTelevision 1 is on channel ' + str(television_1.get_channel()) + ' and volume is at '+ str(television_1.get_volume()))
+print(Fore.GREEN + '\nTelevision 1 is on channel ' + str(television_1.get_channel()) + ' and volume is at '+ str(television_1.get_volume()))
 #decrease volume by 1
 television_1.volume_down()
 #decrease channel by 2
@@ -30,11 +30,11 @@ television_1.channel_down()
 television_1.channel_down()
 #display tv status
 time.sleep(1)
-print(Fore.GREEN + Style.BRIGHT + '\nTelevision 1 is on channel ' + str(television_1.get_channel()) + ' and volume is at '+ str(television_1.get_volume()))
+print(Fore.GREEN + '\nTelevision 1 is on channel ' + str(television_1.get_channel()) + ' and volume is at '+ str(television_1.get_volume()))
 #turn off tv
 television_1.turn_off()
 time.sleep(1)
-print(Fore.RED + Style.BRIGHT + '\nTelevision 1 is on channel ' + str(television_1.get_channel()) + ' and volume is at '+ str(television_1.get_volume()))
+print(Fore.RED + '\nTelevision 1 is on channel ' + str(television_1.get_channel()) + ' and volume is at '+ str(television_1.get_volume()))
 
 #create tv 2
 television_2 = TV()
@@ -52,12 +52,12 @@ television_2.channel_up()
 television_2.volume_up()
 #display tv status
 time.sleep(1)
-print(Fore.GREEN + Style.BRIGHT + '\nTelevision 2 is on channel ' + str(television_2.get_channel()) + ' and volume is at '+ str(television_2.get_volume()))#decrease channel by 1
+print(Fore.GREEN + '\nTelevision 2 is on channel ' + str(television_2.get_channel()) + ' and volume is at '+ str(television_2.get_volume()))#decrease channel by 1
 television_2.channel_down()
 #display tv status
 time.sleep(1)
-print(Fore.GREEN + Style.BRIGHT + '\nTelevision 2 is on channel ' + str(television_2.get_channel()) + ' and volume is at '+ str(television_2.get_volume()))
+print(Fore.GREEN + '\nTelevision 2 is on channel ' + str(television_2.get_channel()) + ' and volume is at '+ str(television_2.get_volume()))
 #turn off tv 2
 television_2.turn_off()
 time.sleep(1)
-print(Fore.RED + Style.BRIGHT + '\nTelevision 2 is on channel ' + str(television_2.get_channel()) + ' and volume is at '+ str(television_2.get_volume()))
+print(Fore.RED + '\nTelevision 2 is on channel ' + str(television_2.get_channel()) + ' and volume is at '+ str(television_2.get_volume()))
