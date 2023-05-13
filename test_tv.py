@@ -13,10 +13,15 @@ print('Television 1 is on channel', television_1.get_channel(), 'and volume is a
 #increase volume up by 2
 television_1.volume_up()
 television_1.volume_up()
-print('Television 1 volume at', television_1.get_volume())
+#increase channel by 1
+television_1.channel_up()
+print('Television 1 is on channel', television_1.get_channel(), 'and volume is at', television_1.get_volume())
 #decrease volume by 1
 television_1.volume_down()
-print('Television 1 volume at', television_1.get_volume())
+#decrease channel by 2
+television_1.channel_down()
+television_1.channel_down()
+print('Television 1 is on channel', television_1.get_channel(), 'and volume is at', television_1.get_volume())
 
 #create tv 2
 television_2 = TV()
